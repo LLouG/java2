@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tests",
+            "request": "launch",
+            "mainClass": "dayTwelve.tests.tests",
+            "projectName": "java2_409b1d98"
+        },
+        {
+            "type": "java",
             "name": "MoreAboutEquals",
             "request": "launch",
             "mainClass": "dayEleven.MoreAboutEquals",
