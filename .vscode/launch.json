@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AnonInnerClass",
+            "request": "launch",
+            "mainClass": "dayTwelve.innerClasses.AnonInnerClass",
+            "projectName": "java2_409b1d98"
+        },
+        {
+            "type": "java",
+            "name": "Innerclasses",
+            "request": "launch",
+            "mainClass": "dayTwelve.innerClasses.Innerclasses",
+            "projectName": "java2_409b1d98"
+        },
+        {
+            "type": "java",
+            "name": "AbstractClasses",
+            "request": "launch",
+            "mainClass": "dayTwelve.abstractClasses.AbstractClasses",
+            "projectName": "java2_409b1d98"
+        },
+        {
+            "type": "java",
+            "name": "WrapperClasses",
+            "request": "launch",
+            "mainClass": "dayTwelve.wrapperClasses.WrapperClasses",
+            "projectName": "java2_409b1d98"
+        },
+        {
+            "type": "java",
             "name": "tests",
             "request": "launch",
             "mainClass": "dayTwelve.tests.tests",
