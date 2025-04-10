@@ -1,6 +1,7 @@
 package dayThirteen;
 import java.util.Scanner;
 
+
 public class Notes {
     public static void main(String[] args) {
         MultiLines myStr = new MultiLines();

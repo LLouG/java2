@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Conditionals",
+            "request": "launch",
+            "mainClass": "dayFourteen.Conditionals",
+            "projectName": "java2_409b1d98"
+        },
+        {
+            "type": "java",
             "name": "Notes",
             "request": "launch",
             "mainClass": "dayThirteen.Notes",
