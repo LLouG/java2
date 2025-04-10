@@ -1,5 +1,6 @@
 package dayTwelve.innerClasses;
 
+
 public class AnonInnerClass {
     public static void main(String[] args) {
         Book originalBook = new Book();
