@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Conditionals",
+            "request": "launch",
+            "mainClass": "dayFifteen.Conditionals",
+            "projectName": "java2_409b1d98"
+        },
+        {
+            "type": "java",
             "name": "Scan",
             "request": "launch",
             "mainClass": "dayFourteen.Scan",

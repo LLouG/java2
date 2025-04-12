@@ -1,7 +1,6 @@
 package dayFourteen;
 import java.util.Scanner;
 
-
 public class Scan {
     public static void main(String[] args) {
         /* Convert myInt = new Convert();
