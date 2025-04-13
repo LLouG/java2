@@ -3,7 +3,6 @@ package dayFifteen;
 import java.util.Scanner;
 // alt + shift + F fix some of the indentation problems
 
-
 public class Conditionals {
     public static void main(String[] args) {
         /*
