@@ -1,7 +1,5 @@
 package daySixteen;
 
-// TODO: percentageOfPositives = 100.0 * numberOfPositives / (numberOfPositives + numberOfNegatives
-
 import java.util.Scanner;
 
 public class Reader {
