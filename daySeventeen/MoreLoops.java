@@ -12,29 +12,27 @@ public class MoreLoops {
 class PositivesAndNegatives {
     Scanner scanner = new Scanner(System.in);
 
-    int numberOfPositives;
-    int numberOfNegatives;
+    int numberOfPositives = 0;
+    int numberOfNegatives = 0;
     double percentageOfPositives;
 
     public void askForNumbers() {
-            while (true) {            
-            int total = 0;
+            while (true) {
             System.out.println("Enter a number (0 to quit)");
+            int currentInput = Integer.valueOf(scanner.nextLine());
 
-            if (Integer.valueOf(scanner.nextLine()) < 0) {
+            if (currentInput <= -1) 
+            {
                 numberOfNegatives++;
-                total++;
-            } else if (Integer.valueOf(scanner.nextLine()) > 0) {
+            }else if (currentInput >= 1) 
+            {
                 numberOfPositives++;
-                total++;
-                // numberOfPositives++ only works after typing 2 positive numbers in a row, WHY?
             } else {
                 percentageOfPositives = 100.0 * numberOfPositives / (numberOfPositives + numberOfNegatives);
                 System.out.println(percentageOfPositives + "% of the numbers were positive.");
                 break;
             }
-
-            System.out.println("There are " + numberOfPositives + " positive numbers and " + numberOfNegatives + " negative numbers.");
+            System.out.println("Currently there are " + numberOfPositives + " positive numbers and " + numberOfNegatives + " negative numbers");
         }
     }
 }
