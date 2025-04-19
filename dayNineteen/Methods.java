@@ -6,10 +6,17 @@ public class Methods {
         // greet();
         // printUntilNumber(5);
         // division(3, 5);
-        divisibleByThreeInRange();
+        // divisibleByThreeInRange();
+
+        System.out.println(alwaysReturn(7, 4));
     }
     
-    
+    public static int alwaysReturn(int n1, int n2) {
+        int result = n1 + n2;
+
+        return result;
+    }
+
     public static void greet() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("How many times? ");
@@ -57,4 +64,5 @@ public class Methods {
             }
         }
     }
+
 }
