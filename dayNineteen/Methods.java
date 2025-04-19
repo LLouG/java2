@@ -11,6 +11,8 @@ public class Methods {
         /* double number = 4 * alwaysReturnTen() + (alwaysReturnTen() / 2) - 8;
         System.out.println("The result of the calculation is " + number); */
         // beginningToMiddle(5,10);
+
+        multiplicationTable(3);
     }
     
     public static void greet() {
@@ -82,7 +84,7 @@ public class Methods {
     public static void multiplicationTable(int max) {
         int number = 1;
 
-        while (number < max) {
+        while (number <= max) {
             printMultiplicationTableRow(number, max);
             number++;
         }
